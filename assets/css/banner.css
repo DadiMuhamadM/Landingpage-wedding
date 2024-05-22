@@ -1,0 +1,164 @@
+/* 
+---------------------------------------------
+Banner Style
+--------------------------------------------- 
+*/
+
+.main-banner {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 250px 120px 150px 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-banner:after {
+  content: "";
+  background-image: url(../images/slider-left-dec.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.main-banner .left-content {
+  margin-right: 15px;
+}
+
+.main-banner .left-content h2 {
+  z-index: 2;
+  position: relative;
+  font-weight: 700;
+  line-height: 70px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.main-banner .left-content p {
+  margin-bottom: 45px;
+  color: #2a2a2a;
+  font-weight: 400;
+}
+
+.main-banner .left-content .first-button {
+  margin-right: 15px;
+}
+
+.main-banner .left-content .white-button {
+  display: inline-block;
+}
+
+.main-banner .right-image {
+  text-align: center;
+  position: relative;
+  z-index: 20;
+  animation: slideUpDown 3s ease-in-out infinite;
+}
+
+.main-banner .right-image img {
+  max-width: 710px;
+}
+
+.main-banner .left-content .white-button a {
+  background-color: #4b8ef1;
+  color: #fff !important;
+}
+
+/* 
+  ---------------------------------------------
+  responsive
+  --------------------------------------------- 
+  */
+
+@media (max-width: 1600px) {
+  .header-area .main-nav .logo h4 {
+    font-size: 24px;
+  }
+  .header-area .main-nav .logo h4 img {
+    max-width: 25px;
+    margin-left: 0px;
+  }
+  .header-area .main-nav .nav li:last-child {
+    padding-left: 20px;
+  }
+
+  .main-banner .left-content h2 {
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+    line-height: 70px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    /* color: #fff; */
+  }
+
+  .main-banner .left-content p {
+    margin-bottom: 45px;
+
+    color: #fff;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-area {
+    background-color: #fff;
+  }
+  .main-banner:after {
+    display: none;
+  }
+
+  .main-banner .left-content p {
+    color: #afafaf;
+    margin-right: 0;
+  }
+
+  .main-banner .left-content .white-button a {
+    background-color: #4b8ef1;
+    color: #fff !important;
+  }
+  form#contact {
+    overflow: hidden;
+  }
+  .header-area .main-nav .logo h4 {
+    font-size: 20px;
+  }
+  .main-banner .left-content {
+    margin-right: 0px;
+  }
+  .main-banner {
+    text-align: center;
+    padding: 226px 0px 30px 0px;
+  }
+  .main-banner:before {
+    display: none;
+  }
+  .main-banner .right-image {
+    margin: 30px auto 0px auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-banner h2 {
+    color: #2a2a2a;
+  }
+}
+
+@keyframes slideUpDown {
+  0% {
+    top: -2vh;
+  }
+
+  50% {
+    top: 2vh;
+  }
+
+  100% {
+    top: -2vh;
+  }
+}

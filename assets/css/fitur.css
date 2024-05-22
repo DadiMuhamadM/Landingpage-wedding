@@ -1,0 +1,219 @@
+/* 
+---------------------------------------------
+Fitur Style
+--------------------------------------------- 
+*/
+
+.services {
+  padding-top: 130px;
+  position: relative;
+}
+
+.services .section-heading p {
+  margin-top: 10px;
+  margin-left: 18%;
+  margin-right: 18%;
+  color: #2a2a2a;
+}
+
+.services .container-service {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.services:after {
+  content: "";
+  background-image: url(../images/services-left-dec.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: -300px;
+  width: 261px;
+  height: 368px;
+  z-index: 0;
+}
+
+.services:before {
+  content: "";
+  background-image: url(../images/services-right-dec.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1136px;
+  height: 244px;
+  z-index: 0;
+}
+
+.services .section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services .section-heading .line-dec {
+  margin: 0 auto;
+}
+
+.service-item {
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 30px;
+  /* border-top-right-radius: 50px; */
+  transition: all 0.3s;
+  /* border: 1px solid black; */
+}
+
+.service-item .icon {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+}
+
+.service-item h4 {
+  transition: all 0.3s;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.service-item p {
+  color: #2a2a2a;
+  transition: all 0.3s;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.service-item:hover h4,
+.service-item:hover p,
+.service-item:hover .text-button a {
+  color: #fff;
+}
+
+.first-service .icon {
+  background-image: url(../images/service-icon-01.png);
+}
+
+.first-service:hover .icon {
+  background-image: url(../images/service-icon-hover-01.png);
+}
+
+.second-service .icon {
+  background-image: url(../images/service-icon-02.png);
+}
+
+.second-service:hover .icon {
+  background-image: url(../images/service-icon-hover-02.png);
+}
+
+.third-service .icon {
+  background-image: url(../images/service-icon-03.png);
+}
+
+.third-service:hover .icon {
+  background-image: url(../images/service-icon-hover-03.png);
+}
+
+.fourth-service .icon {
+  background-image: url(../images/service-icon-04.png);
+}
+
+.fourth-service:hover .icon {
+  background-image: url(../images/service-icon-hover-04.png);
+}
+
+.service-item:hover {
+  background-image: url(../images/service-bg.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 
+  ---------------------------------------------
+  responsive
+  --------------------------------------------- 
+  */
+
+@media (max-width: 767px) {
+  .service-item {
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+
+  .service-item h4 {
+    text-align: start;
+    transition: all 0.3s;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .service-item p {
+    text-align: start;
+    color: #2a2a2a;
+    transition: all 0.3s;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .menu .thumb span.category {
+    display: none;
+  }
+  .about-us .right-image {
+    margin-top: 30px;
+  }
+  /* .service-item .icon {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    align-items: start;
+  } */
+
+  .service-item .right-content {
+    display: inline-block;
+  }
+  .services .naccs .menu div .thumb {
+    padding: 5px;
+  }
+  .services .icon img {
+    margin: 0px;
+  }
+  .the-clients .nacc .thumb .down-content .right-content {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .services ul.nacc li.active {
+    padding: 45px;
+  }
+  .services .naccs .menu div {
+    font-size: 0px;
+  }
+  .the-clients .nacc .thumb .down-content {
+    text-align: center;
+  }
+  .services ul.nacc li .right-image img {
+    float: none;
+  }
+  .our-portfolio .section-heading,
+  .about-us .section-heading,
+  .about-us .about-item,
+  .about-us p,
+  .about-us .main-green-button {
+    text-align: center;
+  }
+  .our-portfolio .section-heading .line-dec {
+    margin: 0 auto;
+  }
+  .our-services .section-heading {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

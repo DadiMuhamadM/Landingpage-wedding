@@ -1,0 +1,192 @@
+.pricing-tables {
+  padding-top: 130px;
+}
+
+.pricing-tables .section-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.pricing-tables .section-heading p {
+  margin-top: 10px;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.pricing-item-regular {
+  margin-top: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+  padding: 90px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.pricing-item-regular:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/regular-table-top.png);
+  z-index: 0;
+  content: "";
+  width: 274px;
+  height: 221px;
+}
+
+.pricing-item-regular:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../images/regular-table-bottom.png);
+  z-index: 0;
+  content: "";
+  width: 370px;
+  height: 171px;
+}
+
+.pricing-item-regular span.price {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+.pricing-item-regular h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.pricing-item-regular .icon img {
+  width: 120px;
+  height: 106px;
+  margin-bottom: 30px;
+}
+
+.pricing-item-regular ul li {
+  color: #4b8ef1;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.pricing-item-regular ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.pricing-item-regular ul li.non-function {
+  color: #afafaf;
+  text-decoration: line-through;
+}
+
+.pricing-item-regular .border-button {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+.pricing-item-pro {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+  padding: 120px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.pricing-item-pro:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/pro-table-top.png);
+  z-index: 0;
+  content: "";
+  width: 281px;
+  height: 251px;
+}
+
+.pricing-item-pro:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/pro-table-bottom.png);
+  z-index: 0;
+  content: "";
+  width: 100%;
+  height: 201px;
+}
+
+.pricing-item-pro span.price {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+.pricing-item-pro h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.pricing-item-pro .icon img {
+  width: 120px;
+  height: 106px;
+  margin-bottom: 30px;
+}
+
+.pricing-item-pro ul li {
+  color: #4b8ef1;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.pricing-item-pro ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.pricing-item-pro ul li.non-function {
+  color: #afafaf;
+  text-decoration: line-through;
+}
+
+.pricing-item-pro .border-button {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+.pricing-item-regular:hover {
+  box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.pricing-item-pro:hover {
+  box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* 
+  ---------------------------------------------
+  responsive
+  --------------------------------------------- 
+  */
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .pricing-item-regular {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+}

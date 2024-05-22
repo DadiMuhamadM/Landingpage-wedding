@@ -1,0 +1,89 @@
+/* 
+---------------------------------------------
+Tema Style
+--------------------------------------------- 
+*/
+.tema {
+  padding-top: 130px;
+  position: relative;
+
+  /* border: 1px solid black; */
+}
+
+.tema .section-heading p {
+  margin-top: 10px;
+  margin-left: 18%;
+  margin-right: 18%;
+  color: #2a2a2a;
+}
+
+.tema .section-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.tema .section-heading .line-dec {
+  margin: 0 auto;
+}
+
+/* .tema .container {
+  padding-left: 65px;
+  padding-right: 65px;
+} */
+.tema .container-item {
+  padding-left: 65px;
+  padding-right: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* .tema .col-lg-3 {
+  flex: 0 0 50%;
+  max-width: 50%;
+} */
+
+.tema-item {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
+  /* padding: 0px 0px 10px; */
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 5 5px 15px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  padding-bottom: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.tema-item h4 {
+  transition: all 0.3s;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.tema-item:hover {
+  box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* 
+    ---------------------------------------------
+    responsive
+    --------------------------------------------- 
+    */
+
+@media (max-width: 767px) {
+  .tema-item h4 {
+    transition: all 0.3s;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .tema .container-item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
