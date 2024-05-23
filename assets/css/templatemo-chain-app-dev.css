@@ -1162,7 +1162,7 @@ responsive
 
   .col-lg-3 {
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 100%;
   }
   .service-item h4 {
     transition: all 0.3s;

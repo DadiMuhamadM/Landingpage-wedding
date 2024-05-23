@@ -217,3 +217,10 @@ Fitur Style
     margin-right: 15px;
   }
 }
+
+@media (max-width: 460px) {
+  .services .container-service {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
