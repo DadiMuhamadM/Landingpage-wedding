@@ -1,0 +1,88 @@
+.pesan {
+  padding-top: 130px;
+  position: relative;
+}
+
+.pesan .section-heading p {
+  margin-top: 10px;
+  margin-left: 18%;
+  margin-right: 18%;
+  color: #2a2a2a;
+}
+
+.pesan .section-heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.pesan .section-heading .line-dec {
+  margin: 0 auto;
+}
+
+.pesan .container-pesan {
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
+.pesan-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Memusatkan secara horizontal */
+  padding: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 8px 16px rgba(38, 152, 244, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.pesan-item h4 {
+  transition: all 0.3s;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.pesan-item p {
+  margin-top: 10px;
+  line-height: 1.2;
+  color: #2a2a2a;
+  transition: all 0.3s;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.pesan-item .icons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: contain; /* Agar gambar menyesuaikan dengan ukuran elemen */
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+}
+
+.satu-pesan .icons {
+  background-image: url("../images/daftar.png"); /* Pastikan path ini benar */
+}
+.dua-pesan .icons {
+  background-image: url("../images/isi.png"); /* Pastikan path ini benar */
+}
+.tiga-pesan .icons {
+  background-image: url("../images/share.png"); /* Pastikan path ini benar */
+}
+.empat-pesan .icons {
+  background-image: url("../images/pantau.png"); /* Pastikan path ini benar */
+}
+
+.pesan-item:hover {
+  box-shadow: 5px 8px 16px rgb(8, 8, 236);
+}
+
+@media (max-width: 460px) {
+  .pesan .container-pesan {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

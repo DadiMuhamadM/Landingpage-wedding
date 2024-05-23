@@ -87,3 +87,10 @@ Tema Style
     padding-right: 20px;
   }
 }
+
+@media (max-width: 460px) {
+  .tema .container-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
