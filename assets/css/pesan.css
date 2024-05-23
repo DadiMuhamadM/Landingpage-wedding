@@ -30,6 +30,7 @@
   flex-direction: column;
   align-items: center; /* Memusatkan secara horizontal */
   padding: 20px;
+  margin-bottom: 20px;
   text-align: center;
   padding-bottom: 10px;
   border-radius: 20px;

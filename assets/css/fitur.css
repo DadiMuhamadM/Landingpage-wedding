@@ -71,6 +71,7 @@ Fitur Style
   margin-left: 0px;
   margin-bottom: 20px;
   background-repeat: no-repeat;
+  background-size: contain;
   width: 50px;
   height: 50px;
   transition: all 0.3s;
@@ -96,37 +97,55 @@ Fitur Style
   color: #fff;
 }
 
-.first-service .icon {
-  background-image: url(../images/service-icon-01.png);
+.satu-fitur .icon {
+  /* background-image: url(../images/service-icon-01.png); */
+  background-image: url("../images/domain.png");
 }
 
-.first-service:hover .icon {
+/* .first-service:hover .icon {
   background-image: url(../images/service-icon-hover-01.png);
+  background-image: url("../images/daftar.png");
+} */
+
+.dua-fitur .icon {
+  background-image: url("../images/persons.png");
 }
 
-.second-service .icon {
-  background-image: url(../images/service-icon-02.png);
-}
-
-.second-service:hover .icon {
+/* .second-service:hover .icon {
   background-image: url(../images/service-icon-hover-02.png);
+} */
+
+.tiga-fitur .icon {
+  background-image: url("../images/custom.png");
 }
 
-.third-service .icon {
-  background-image: url(../images/service-icon-03.png);
+/* .third-service:hover .icon {
+  background-image: url("../images/domain.png");
+} */
+
+.empat-fitur .icon {
+  background-image: url("../images/sharee.png");
 }
 
-.third-service:hover .icon {
-  background-image: url(../images/service-icon-hover-03.png);
+.lima-fitur .icon {
+  background-image: url("../images/konten.png");
 }
 
-.fourth-service .icon {
-  background-image: url(../images/service-icon-04.png);
+.enam-fitur .icon {
+  background-image: url("../images/tema.png");
 }
 
-.fourth-service:hover .icon {
+.tujuh-fitur .icon {
+  background-image: url("../images/persons.png");
+}
+
+.delapan-fitur .icon {
+  background-image: url("../images/buku.png");
+}
+
+/* .fourth-service:hover .icon {
   background-image: url(../images/service-icon-hover-04.png);
-}
+} */
 
 .service-item:hover {
   background-image: url(../images/service-bg.jpg);
