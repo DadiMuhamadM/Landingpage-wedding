@@ -160,7 +160,7 @@ Fitur Style
   --------------------------------------------- 
   */
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
   .service-item {
     box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
     background-color: #fff;
@@ -189,12 +189,12 @@ Fitur Style
   .about-us .right-image {
     margin-top: 30px;
   }
-  /* .service-item .icon {
+  .service-item .icon {
     float: none;
     margin-right: 0px;
     margin-bottom: 15px;
     align-items: start;
-  } */
+  }
 
   .service-item .right-content {
     display: inline-block;
@@ -237,9 +237,16 @@ Fitur Style
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 550px) {
   .services .container-service {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .service-item p {
+    text-align: start;
+    color: #2a2a2a;
+    transition: all 0.3s;
+    font-size: 12px;
+    line-height: 1.2;
   }
 }

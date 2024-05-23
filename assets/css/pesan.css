@@ -81,7 +81,7 @@
   box-shadow: 5px 8px 16px rgb(8, 8, 236);
 }
 
-@media (max-width: 460px) {
+@media (max-width: 550px) {
   .pesan .container-pesan {
     padding-left: 10px;
     padding-right: 10px;
