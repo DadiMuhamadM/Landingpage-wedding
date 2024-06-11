@@ -418,6 +418,8 @@ header
 }
 
 .header-area .main-nav {
+  display: flex;
+  justify-content: space-between;
   min-height: 80px;
   background: transparent;
 }
@@ -441,6 +443,25 @@ header
 
 .background-header .main-nav .logo {
   line-height: 80px;
+}
+
+.container-logo {
+  display: flex; /* Mengatur elemen di dalamnya secara horizontal */
+  align-items: center; /* Menyelaraskan elemen secara vertikal */
+  gap: 10px; /* Jarak antar elemen, sesuaikan dengan kebutuhan */
+}
+
+.logo img {
+  width: 50px; /* Ukuran gambar, sesuaikan dengan kebutuhan */
+  height: auto; /* Menjaga proporsi gambar */
+}
+
+.container-logo h2 {
+  margin: 0; /* Hilangkan margin default untuk menghindari spasi ekstra */
+  font-size: 1.2em; /* Ukuran teks, sesuaikan dengan kebutuhan */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: #069;
 }
 
 .background-header .main-nav .nav {
@@ -775,6 +796,11 @@ header
   .header-area .logo {
     margin-left: 30px;
   }
+
+  .header-area .container-logo {
+    position: fixed;
+  }
+
   .header-area .menu-trigger {
     display: block !important;
   }
@@ -1014,6 +1040,7 @@ responsive
   .header-area .main-nav .logo h4 {
     font-size: 20px;
   }
+
   .main-banner .left-content {
     margin-right: 0px;
   }

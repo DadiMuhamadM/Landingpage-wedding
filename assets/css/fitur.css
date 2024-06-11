@@ -142,6 +142,18 @@ Fitur Style
 .delapan-fitur .icon {
   background-image: url("../images/buku.png");
 }
+.sembilan-fitur .icon {
+  background-image: url("../images/sharee.png");
+}
+.sepuluh-fitur .icon {
+  background-image: url("../images/story.png");
+}
+.sebelas-fitur .icon {
+  background-image: url("../images/hadiah.png");
+}
+.duabelas-fitur .icon {
+  background-image: url("../images/cutdown.png");
+}
 
 /* .fourth-service:hover .icon {
   background-image: url(../images/service-icon-hover-04.png);

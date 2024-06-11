@@ -159,6 +159,10 @@ Banner Style
     margin-bottom: 20px;
     /* color: #fff; */
   }
+
+  .main-banner h2 {
+    margin-top: -40px;
+  }
 }
 
 @keyframes slideUpDown {

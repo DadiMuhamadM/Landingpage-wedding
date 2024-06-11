@@ -68,6 +68,18 @@ Tema Style
   box-shadow: 5px 8px 16px rgba(4, 33, 255, 0.466);
 }
 
+.border-button {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  justify-content: center;
+  display: flex; /* Mengaktifkan Flexbox */
+  gap: 10px; /* Jarak antar tombol, sesuaikan dengan kebutuhan Anda */
+}
+
 /* 
     ---------------------------------------------
     responsive
@@ -93,4 +105,8 @@ Tema Style
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  /* .border-button {
+    padding: 5px;
+  } */
 }
