@@ -339,14 +339,14 @@ body {
 
 .border-button a {
   display: inline-block !important;
-  padding: 10px 20px !important;
+  padding: 6px 12px !important;
   color: #4b8ef1 !important;
   border: 1px solid #4b8ef1;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 12px;
   display: inline-block;
   background-color: #fff;
-  border-radius: 23px;
+  border-radius: 12px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
   transition: all 0.5s;
@@ -1287,4 +1287,8 @@ responsive
 }
 
 @media (max-width: 767px) {
+  .tema .col-lg-3 {
+    flex: 0 0 50%;
+    max-width: 100%;
+  }
 }

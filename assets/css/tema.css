@@ -76,8 +76,8 @@ Tema Style
 
 .button-container {
   justify-content: center;
-  display: flex; /* Mengaktifkan Flexbox */
-  gap: 10px; /* Jarak antar tombol, sesuaikan dengan kebutuhan Anda */
+  display: flex;
+  gap: 10px;
 }
 
 /* 
@@ -109,4 +109,9 @@ Tema Style
   /* .border-button {
     padding: 5px;
   } */
+}
+@media (max-width: 350px) {
+  .tema-item {
+    flex: 0 0 calc(50% - 5px); /* Lebar 50% dengan sedikit jarak antar elemen */
+  }
 }
